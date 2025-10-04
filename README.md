@@ -26,35 +26,36 @@ A modern, responsive personal portfolio website showcasing my projects, skills, 
 
 ## 🗂️ File Structure
 
-```bash
-portfolio-website/
-│
-├── index.html # Main entry point of your website
-├── about.html # About Me section (optional)
-├── projects.html # Project showcase page
-├── contact.html # Contact form or info page
-│
-├── /assets
-│ ├── /images # Profile picture, project screenshots, etc.
-│ ├── /videos # Optional: demo videos
-│ └── /icons # Favicons or SVG icons
-│
-├── /css
-│ ├── style.css # Main styles
-│ └── responsive.css # Mobile adjustments
-│
-├── /js
-│ ├── main.js # Navigation, animations, etc.
-│ └── projects.js # Optional scripts for project filtering or cards
-│
-├── /components # (Optional) For modular HTML sections
-│ ├── header.html
-│ ├── footer.html
-│ └── navbar.html
-│
-├── README.md # GitHub project description
+````bash
+# 📁 Portfolio Website Structure
 
-```
+```bash
+Portfolio/
+├── .gitignore
+├── index.html
+├── README.md
+│
+├── assets/
+│   ├── fonts/
+│   └── images/
+│
+├── src/
+│   ├── css/
+│   ├── js/
+│   ├── components/
+│   │   ├── header.html
+│   │   ├── navbar.html
+│   │   └── footer.html
+│   │
+│   └── pages/
+│       ├── about.html
+│       ├── contact.html
+│       └── project.html
+│
+└── .git/                      # Git version control (auto-generated)
+
+
+````
 
 ---
 
