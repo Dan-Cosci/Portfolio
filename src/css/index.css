@@ -1,0 +1,29 @@
+body {
+  font-family: montserrat;
+  color: #fff;
+  background-color: #252422;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar{
+  width: 100%;
+  margin-top: 1rem;
+}
+.navbar .link-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: #fff;
+}
+
+
+.navbar .nav-link{
+  color: #fff;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 2rem;
+}
