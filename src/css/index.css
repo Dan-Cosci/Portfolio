@@ -4,16 +4,21 @@ body {
   background-color: #252422;
 }
 
-a{
+.container {
+  margin: 0rem 10rem;
+}
+
+a {
   text-decoration: none;
   color: #fff;
 }
 
-.navbar{
+.navbar {
   width: 100%;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  border-bottom: 2px solid #fff;
 }
-.navbar .link-container{
+.navbar .link-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -21,9 +26,34 @@ a{
 }
 
 
-.navbar .nav-link{
+.navbar .nav-link {
   color: #fff;
   text-decoration: none;
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: .1rem;
+}
+
+.intro{
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1.4fr 3.4fr;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag-list {
+  padding: 3px 10px;
+  list-style-type: none;
+  border: 3px #7a7a7a solid;
+  border-radius: 4px;
+  display: inline; 
+}
+
+.profile-img-container img {
+  height: 200px;
+  object-fit: cover;
 }
