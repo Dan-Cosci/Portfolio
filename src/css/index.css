@@ -2,6 +2,7 @@ body {
   font-family: montserrat;
   color: #fff;
   background-color: #252422;
+  margin: 0px;
 }
 
 .container {
@@ -34,26 +35,55 @@ a {
   margin-bottom: .1rem;
 }
 
+/* intro css */
 .intro{
   margin-top: 5rem;
-  display: grid;
+  display: flex;
+  align-items: center;
   grid-template-columns: 1.4fr 3.4fr;
+}
+
+.profile-text-container{
+  padding-right: 10rem;
+}
+.profile-img-container h2{
+  margin: 0px;
+  padding: 0px;
+}
+.profile-text-container h3 {
+  margin: 0px;
+  padding: 0px;
+  color: rgba(255, 255, 255, 0.75);
+}
+.profile-text-container h1{
+  margin: 0px;
+  font-size: 3.5rem;
 }
 
 .tag-container {
   display: flex;
   justify-content: space-between;
-}
+  padding: 0;
+} 
 
 .tag-list {
   padding: 3px 10px;
   list-style-type: none;
-  border: 3px #7a7a7a solid;
-  border-radius: 4px;
+  border: 1.5px #7a7a7a solid;
+  border-radius: 10px;
   display: inline; 
 }
 
-.profile-img-container img {
-  height: 200px;
+.profile-img-container{
+  padding: 0px 20px;
+}.profile-img-container img {
+  height: 300px;
   object-fit: cover;
+  border-radius: 25px;
+}
+
+/* footer */
+.footer {
+  background-color: #191817;
+  width: 100%;
 }
