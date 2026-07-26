@@ -21,9 +21,9 @@
   --color-red-dark: #c92a2a;
 
   /* Functional/utility tokens */
-  --color-bg: var(--color-white);
-  --color-text: var(--color-grey-900);
-  --color-accent: var(--color-red);
+  --color-bg: var(--color-black);
+  --color-text: var(--color-grey-300);
+  --color-accent: var(--color-red-light);
 
   --font-main: "JetBrains Mono", "Fira Code", "Cascadia Code", Consolas, monospace; 
  

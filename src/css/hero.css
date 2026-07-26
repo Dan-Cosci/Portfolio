@@ -1,0 +1,41 @@
+#hero{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  .img-container{
+
+    img{
+      object-fit: cover;
+      object-position: 0rem 0rem;
+      height: 20vw;
+      width: 20vw;
+      border-radius: 30rem 10rem 30rem 10rem;
+
+    }
+
+  }
+
+  .text-container{
+    max-width: 40rem;
+    
+    & .title{
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    & .subtitle{
+      font-size: 1.5rem;
+      font-weight: lighter;
+    }
+
+    & .description{
+
+    }
+  }
+
+
+
+}
