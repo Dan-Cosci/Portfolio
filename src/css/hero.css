@@ -4,15 +4,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 80vh;
+  gap: 2rem;
 
   .img-container{
 
     img{
       object-fit: cover;
       object-position: 0rem 0rem;
-      height: 20vw;
-      width: 20vw;
-      border-radius: 30rem 10rem 30rem 10rem;
+      height: clamp(10rem, 25vw, 23rem);
+      width: clamp(10rem, 20vw, 20rem); 
+      border-radius: 50rem 15rem;
 
     }
 
@@ -27,8 +29,9 @@
     }
 
     & .subtitle{
-      font-size: 1.5rem;
-      font-weight: lighter;
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: var(--color-accent);
     }
 
     & .description{

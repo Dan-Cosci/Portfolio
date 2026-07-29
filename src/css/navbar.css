@@ -4,12 +4,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 3rem;
+  border-bottom: var(--color-grey-900) 2px solid;
 
 
   & ul {
     display: flex;
     flex-direction: row;
-    gap: 1.2rem;
+    gap: 1.8rem;
+    font-size: 1.3rem;
 
     & :hover{
       color: var(--color-accent);
@@ -19,6 +21,10 @@
   & li {
     transition: all 1s ease;
 
+  }
+
+  .navbar-logo{
+    color: var(--color-accent);
   }
 
 
