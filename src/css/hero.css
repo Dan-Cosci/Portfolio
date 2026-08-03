@@ -1,7 +1,7 @@
 #hero{
 
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   height: 80vh;
@@ -14,7 +14,8 @@
       object-position: 0rem 0rem;
       height: clamp(10rem, 25vw, 23rem);
       width: clamp(10rem, 20vw, 20rem); 
-      border-radius: 50rem 15rem;
+      border: solid 2px var(--color-grey-800);
+      border-radius: 1rem;
 
     }
 
@@ -23,8 +24,14 @@
   .text-container{
     max-width: 40rem;
     
+    & .pre-title{
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: var(--color-grey-600);
+    }
+
     & .title{
-      font-size: 2.5rem;
+      font-size: 3.5rem;
       font-weight: bold;
     }
 

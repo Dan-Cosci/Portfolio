@@ -5,6 +5,7 @@
   justify-content: space-between;
   padding: 1rem 3rem;
   border-bottom: var(--color-grey-900) 2px solid;
+  background-color: var(--color-black);
 
 
   & ul {
