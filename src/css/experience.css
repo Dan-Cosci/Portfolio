@@ -1,0 +1,15 @@
+#experience{
+  min-height: 100vh;
+
+  & .timeline{
+    border: red solid 1px;
+    padding: 1rem;
+  }
+
+  & .timeline-col{
+    border: red solid 1px;
+    padding: 1rem;
+    
+  }
+}
+
